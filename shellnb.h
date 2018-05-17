@@ -1,10 +1,10 @@
-#ifndef __FUNSHELLNB__
-#define __FUNSHELLNB__
+#ifndef __SHELLNB__
+#define __SHELLNB__
 
 //Definicion de funciones auxiliares para el shell
 void sinEspacios(char* comando);
-bool pHijo();
+int pHijo();
 int saveFile();
-void sinEspacios();
+int redireccion();
 
 #endif
